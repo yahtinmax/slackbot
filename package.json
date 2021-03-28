@@ -1,0 +1,29 @@
+{
+  "name": "slackbot",
+  "version": "1.0.0",
+  "description": "easy slackbot",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yahtinmax/slackbot.git"
+  },
+  "author": "Max Yahtin <maxim.yahtin@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yahtinmax/slackbot/issues"
+  },
+  "homepage": "https://github.com/yahtinmax/slackbot#readme",
+  "dependencies": {
+    "@slack/events-api": "^3.0.0",
+    "@slack/web-api": "^6.1.0",
+    "dotenv": "^8.2.0",
+    "node-schedule": "^2.0.0",
+    "slackbots": "^1.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
